@@ -14,7 +14,7 @@ Skill autocomplete anywhere in the prompt.
 Skills with `disable-model-invocation` can't be invoked this way; run those as `/skill` at the start.
 
 ```
-/plugin install dollar --marketplace acbcdev/acbc-mods
+/plugin install dollar --marketplace acbcdev/mods
 ```
 
 `y` to add the marketplace, then pick a scope.
