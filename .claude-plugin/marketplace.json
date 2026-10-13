@@ -1,0 +1,5 @@
+{
+  "name": "acbc-mods",
+  "owner": { "name": "acbcdev" },
+  "plugins": [{ "name": "dollar", "source": "./dollar" }]
+}
