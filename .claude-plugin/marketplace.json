@@ -1,5 +1,8 @@
 {
   "name": "acbc-mods",
   "owner": { "name": "acbcdev" },
-  "plugins": [{ "name": "dollar", "source": "./dollar" }]
+  "plugins": [
+    { "name": "dollar", "source": "./dollar" },
+    { "name": "ding", "source": "./ding" }
+  ]
 }
