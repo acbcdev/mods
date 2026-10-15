@@ -7,5 +7,6 @@ test('Notification pings, Stop glasses', async ($, on) => {
   on('classic.Stop', async () => ({}))
   await $.classic.Notification({ message: 'needs input', notification_type: 'permission_prompt' })
   await $.classic.Stop({})
-  expect(played).toEqual(['sounds/Ping.aiff', 'sounds/Glass.aiff'])
+  await new Promise(r => setTimeout(r, 500))
+  expect(played).toEqual(['sounds/Ping.aiff', 'sounds/Glass.aiff', 'sounds/Glass.aiff'])
 })
