@@ -9,9 +9,8 @@ export const register: Register = on => {
     return next(e)
   }).catch(($, e, next) => next(e))
   on('classic.Stop', async ($, e, next) => {
-    // ponytail: double Glass = longer end sound without a new asset
-    $.audio.play(glass).catch(() => {})
-    setTimeout(() => $.audio.play(glass).catch(() => {}), 400)
+    // ponytail: triple Glass = longer end sound without a new asset
+    for (let i = 0; i < 3; i++) setTimeout(() => $.audio.play(glass).catch(() => {}), i * 400)
     return next(e)
   }).catch(($, e, next) => next(e))
 }

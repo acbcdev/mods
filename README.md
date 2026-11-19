@@ -24,7 +24,7 @@ Skills with `disable-model-invocation` can't be invoked this way; run those as `
 Sound when Claude needs you.
 
 - Needs attention (permission prompt, idle waiting on input) → `Ping`.
-- Turn ends → `Glass`.
+- Turn ends → `Glass` ×3.
 
 macOS only (plays via `afplay`).
 
